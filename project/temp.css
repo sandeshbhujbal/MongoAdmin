@@ -1,0 +1,37 @@
+#wrapper{
+width: 960px; /*this allows the content to fit monitors of 1024px width and greater without horizontal scrolling*/
+margin: 0 auto; /*positions the content in the centre of the page*/
+}
+header{
+background-color: #806d59;
+color: #edebda;
+padding: 5px 5px;
+
+}
+#container{
+background: #fff;
+height:768px;
+/*overflow: auto; clears the floats in the child elements */ 
+width: 100%
+}
+nav1{
+height:100%;
+width: 260px; /*this + [section#content width] + [nav left & right padding] + [section#content left & right padding] ‹= 960px*/
+float: left;
+background-color: #d8d4ba; 
+margin-right:-150px; /*negative of section#content left border*/ 
+position: relative; 
+
+}
+section#content{
+[section#content left & right padding]/*= wrapper width*/
+float: left;
+padding: 20px;
+border-left: 250px solid #ffffff; /* same width & background colour as nav1 - gives the impression of equal height columns */ 
+}
+footer{
+background-color: #806d59;
+padding: 10px;
+}
+
+

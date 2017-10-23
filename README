@@ -1,0 +1,57 @@
+MongoAdmin : GUI-Interface for MongoDB
+
+Group Memebers: 
+1) Sandesh Bhujbal (12203)
+2) Jayashri Dhamal (12206)
+
+Project Guide: Prof. Nitin Patil
+
+
+Directory contents:
+1) project Directory: which contents the source code of the project, place this directory in your web directory as it is to run it.
+2) project_backup_with_comments: this directory also contents the source code but with some comments and extra code for explanation.
+3) Installation: This directory contains the source code and the steps for installation of php, apache and mongodb using source code.
+	It also conains the steps for making connectivity between mongodb and php.
+
+
+Installation and connectivity:
+
+1) You have to first install mongodb, php, apache either by source code or dirctly user system's installation.
+2) Steps for installation of php, apache, mongodb using source code are mentioned in attached folder named Installation.
+3) You have to make connection between php and mongodb by using driver, find steps in Installation directory.
+
+Using Project:
+1) After completing installtion, put "project" directory which contains the code for project in your web directory.
+   (/var/www/ when using systems installtion and htdocs when using manual installation.)
+2) In browser type: localhost/project/index.php
+
+
+Project Scope:
+We have covered the following concepts in the project:
+
+1) Provides Support for All Basic CRUD Operations.
+2) Add/Delete Database, Collections, Records.
+3) Searching, Sorting.
+4) Pagination of Records.
+5) Display only Specific Required Keys.
+6) User can Directly write Shell Queries (Limited).
+	Find, update, insert, remove, sort, limit, skip, count 
+7) User Management-
+	Add or Delete Users of Database.
+	Login with specific Users.
+
+Limitations:
+
+1) For Searching, Updation of Records user should have the knowledge of JSON Format.
+2) Query Processing Doesn’t support all Queries.
+
+Future Enhancements: 
+1) Use of Ajax
+2) Handling of all Errors.
+3) Support For all Query Processing.
+4) Support for Advanced Features like,
+	Indexing, Map/Reduce, Storing Big Data
+	Sharding
+	Replication
+   (In this project multiple instances of the same server can be started with different configurations.)
+5) Import/Export of Databases.
